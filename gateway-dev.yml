@@ -35,7 +35,6 @@ zuul:
   add-host-header: true #携带请求本身的head头信息
   sensitive-headers: #匹配禁止使用的头信息，这里设置为null，否则set-cookie无效
 ribbon:
-  enabled: true
   ConnectTimeout: 4000 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)
   OkToRetryOnAllOperations: true # 是否对所有操作重试
