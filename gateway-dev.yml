@@ -19,9 +19,6 @@ eureka:
     ip-address: 127.0.0.1
 
 zuul:
-  ribbon:
-    ReadTimeout: 3000
-    ConnectTimeout: 3000
   prefix: /api # 添加路由前缀
   retryable: true
   routes:
